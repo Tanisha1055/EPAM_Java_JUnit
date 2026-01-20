@@ -12,6 +12,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 //Purpose: Supplies arguments from a static method in your test class (or another class).
 //Usage: Use when you need to generate or fetch test data dynamically, or when the data is complex.
 //Here, numberProvider returns a stream of arguments for the test.
+//It has more reusability as we are passing function which we can pass any time to any other
+//MethodSource function .
+//It also supports primitives and Strings unlike CSVSource
 public class MethodSourceType {
     @ParameterizedTest
     @MethodSource("numberProvider")
