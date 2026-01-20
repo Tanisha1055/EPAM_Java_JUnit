@@ -20,5 +20,10 @@ public class Main {
         //in your code is breaking, even before it is going to the production level.
         //3.Increase your confidence- You immediately get an idea that atleast my unit tests,
         //or the functionalities are not breaking .
+
+
+        //for assert few left examples :
+        // User user = userService.findUser("alice");
+        //        assertNull(user);
     }
 }
