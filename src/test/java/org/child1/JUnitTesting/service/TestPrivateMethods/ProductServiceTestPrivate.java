@@ -88,7 +88,7 @@ public class ProductServiceTestPrivate {
     //pass , as all the test case defined for custom purpose should pass, indicating that
     //they are passing the defined functionality as expected , so if passed wrong string
     //we are checking that by defining the failing condition that it should fail ,and
-    //yes it i sfailing (we don't do half pass , half fail as then I won't know whether
-    //the test defined are worjing correctly or failing purposefully , so pass of all
-    //would indicate that all testa are working fine as expected(beg=haviour)).
+    //yes it is failing (we don't do half pass , half fail as then I won't know whether
+    //the test defined are working correctly or failing purposefully , so pass of all
+    //would indicate that all testa are working fine as expected(behaviour)).
 }
