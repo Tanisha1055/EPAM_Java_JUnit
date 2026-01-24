@@ -25,5 +25,12 @@ public class Main {
         //for assert few left examples :
         // User user = userService.findUser("alice");
         //        assertNull(user);
+
+        //Also on imp note: The obj of test class gets created for every test annotation
+        //written inside the class(by default) . If you want 1 test instance for the entire
+        //class , give this annotation on top of the test class:
+        //@TestInstance(TestInstance.Lifecycle.PER_CLASS)
+        //and in this case as we would be having only 1 instance of class , so no need to write
+        //static before @BeforeAll and @AfterAll annotation classes .
     }
 }
